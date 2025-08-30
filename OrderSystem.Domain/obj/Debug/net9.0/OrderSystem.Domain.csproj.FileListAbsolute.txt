@@ -9,3 +9,4 @@
 /Users/enescigdem/OrderSystem/OrderSystem.Domain/obj/Debug/net9.0/refint/OrderSystem.Domain.dll
 /Users/enescigdem/OrderSystem/OrderSystem.Domain/obj/Debug/net9.0/OrderSystem.Domain.pdb
 /Users/enescigdem/OrderSystem/OrderSystem.Domain/obj/Debug/net9.0/ref/OrderSystem.Domain.dll
+/Users/enescigdem/OrderSystem/OrderSystem.Domain/obj/Debug/net9.0/OrderSystem.Domain.sourcelink.json

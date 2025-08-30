@@ -17,3 +17,4 @@
 /Users/enescigdem/OrderSystem/OrderSystem.Infrastructure/obj/Debug/net9.0/OrderSystem.Infrastructure.pdb
 /Users/enescigdem/OrderSystem/OrderSystem.Infrastructure/obj/Debug/net9.0/OrderSystem.Infrastructure.genruntimeconfig.cache
 /Users/enescigdem/OrderSystem/OrderSystem.Infrastructure/obj/Debug/net9.0/ref/OrderSystem.Infrastructure.dll
+/Users/enescigdem/OrderSystem/OrderSystem.Infrastructure/obj/Debug/net9.0/OrderSystem.Infrastructure.sourcelink.json

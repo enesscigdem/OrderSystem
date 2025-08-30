@@ -13,3 +13,4 @@
 /Users/enescigdem/OrderSystem/OrderSystem.Application/obj/Debug/net9.0/refint/OrderSystem.Application.dll
 /Users/enescigdem/OrderSystem/OrderSystem.Application/obj/Debug/net9.0/OrderSystem.Application.pdb
 /Users/enescigdem/OrderSystem/OrderSystem.Application/obj/Debug/net9.0/ref/OrderSystem.Application.dll
+/Users/enescigdem/OrderSystem/OrderSystem.Application/obj/Debug/net9.0/OrderSystem.Application.sourcelink.json
