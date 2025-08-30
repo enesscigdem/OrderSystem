@@ -1,0 +1,11 @@
+/Users/enescigdem/OrderSystem/OrderSystem.Domain/bin/Debug/net9.0/OrderSystem.Domain.deps.json
+/Users/enescigdem/OrderSystem/OrderSystem.Domain/bin/Debug/net9.0/OrderSystem.Domain.dll
+/Users/enescigdem/OrderSystem/OrderSystem.Domain/bin/Debug/net9.0/OrderSystem.Domain.pdb
+/Users/enescigdem/OrderSystem/OrderSystem.Domain/obj/Debug/net9.0/OrderSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/enescigdem/OrderSystem/OrderSystem.Domain/obj/Debug/net9.0/OrderSystem.Domain.AssemblyInfoInputs.cache
+/Users/enescigdem/OrderSystem/OrderSystem.Domain/obj/Debug/net9.0/OrderSystem.Domain.AssemblyInfo.cs
+/Users/enescigdem/OrderSystem/OrderSystem.Domain/obj/Debug/net9.0/OrderSystem.Domain.csproj.CoreCompileInputs.cache
+/Users/enescigdem/OrderSystem/OrderSystem.Domain/obj/Debug/net9.0/OrderSystem.Domain.dll
+/Users/enescigdem/OrderSystem/OrderSystem.Domain/obj/Debug/net9.0/refint/OrderSystem.Domain.dll
+/Users/enescigdem/OrderSystem/OrderSystem.Domain/obj/Debug/net9.0/OrderSystem.Domain.pdb
+/Users/enescigdem/OrderSystem/OrderSystem.Domain/obj/Debug/net9.0/ref/OrderSystem.Domain.dll

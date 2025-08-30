@@ -1,0 +1,15 @@
+/Users/enescigdem/OrderSystem/OrderSystem.Application/bin/Debug/net9.0/OrderSystem.Application.deps.json
+/Users/enescigdem/OrderSystem/OrderSystem.Application/bin/Debug/net9.0/OrderSystem.Application.dll
+/Users/enescigdem/OrderSystem/OrderSystem.Application/bin/Debug/net9.0/OrderSystem.Application.pdb
+/Users/enescigdem/OrderSystem/OrderSystem.Application/bin/Debug/net9.0/OrderSystem.Domain.dll
+/Users/enescigdem/OrderSystem/OrderSystem.Application/bin/Debug/net9.0/OrderSystem.Domain.pdb
+/Users/enescigdem/OrderSystem/OrderSystem.Application/obj/Debug/net9.0/OrderSystem.Application.csproj.AssemblyReference.cache
+/Users/enescigdem/OrderSystem/OrderSystem.Application/obj/Debug/net9.0/OrderSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/enescigdem/OrderSystem/OrderSystem.Application/obj/Debug/net9.0/OrderSystem.Application.AssemblyInfoInputs.cache
+/Users/enescigdem/OrderSystem/OrderSystem.Application/obj/Debug/net9.0/OrderSystem.Application.AssemblyInfo.cs
+/Users/enescigdem/OrderSystem/OrderSystem.Application/obj/Debug/net9.0/OrderSystem.Application.csproj.CoreCompileInputs.cache
+/Users/enescigdem/OrderSystem/OrderSystem.Application/obj/Debug/net9.0/OrderSys.2449CAEB.Up2Date
+/Users/enescigdem/OrderSystem/OrderSystem.Application/obj/Debug/net9.0/OrderSystem.Application.dll
+/Users/enescigdem/OrderSystem/OrderSystem.Application/obj/Debug/net9.0/refint/OrderSystem.Application.dll
+/Users/enescigdem/OrderSystem/OrderSystem.Application/obj/Debug/net9.0/OrderSystem.Application.pdb
+/Users/enescigdem/OrderSystem/OrderSystem.Application/obj/Debug/net9.0/ref/OrderSystem.Application.dll
