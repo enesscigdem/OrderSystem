@@ -17,6 +17,7 @@ public static class DependencyInjection
                 sql => sql.EnableRetryOnFailure()));
 
         services.AddScoped<IOrderService, OrderService>();
+        services.AddScoped<IProductService, ProductService>();
         return services;
     }
 }
