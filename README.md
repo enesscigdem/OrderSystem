@@ -1,4 +1,4 @@
-# OrderSystem – Sipariş Yönetimi (ASP.NET Core Web API)
+# OrderSystem – Sipariş Yönetim Sistemi (ASP.NET Core Web API)
 
 Bu projede temel bir **sipariş yönetimi** API’si geliştirdim. Ürün, sipariş ve sipariş kalemi üzerinden **stok düşümü** yapıyorum; siparişleri **listeleyip**, **detay** dönüp, **silme** işlemlerini sağladım. Veritabanı **SQL Server**, veri erişimi **EF Core (code-first)**, test için **Swagger** kullandım.
 
@@ -39,7 +39,7 @@ Ben tüm sorgularda varsayılan olarak **IsDeleted = 0** ve **IsActive = 1** yak
 **İlişkiler:**
 `Order (1) ── (N) OrderItem (N) ── (1) Product`
 
-#### Product
+#### Product Tablosu
 
 | Alan       | Tip                  | Açıklama                        |
 | ---------- | -------------------- | ------------------------------- |
@@ -52,7 +52,7 @@ Ben tüm sorgularda varsayılan olarak **IsDeleted = 0** ve **IsActive = 1** yak
 
 > `RowVersion` sayesinde aynı ürünü aynı anda güncelleme girişimlerinde çakışma varsa **409 Conflict** döndürüyorum. (EF Core’da `IsRowVersion()` olarak işaretli.)
 
-#### Order
+#### Order Tablosu
 
 | Alan      | Tip                     | Açıklama                                        |
 | --------- | ----------------------- | ----------------------------------------------- |
@@ -63,7 +63,7 @@ Ben tüm sorgularda varsayılan olarak **IsDeleted = 0** ve **IsActive = 1** yak
 | …         | (IAudit alanları)       |                                                 |
 | Items     | ICollection\<OrderItem> | navigation                                      |
 
-#### OrderItem
+#### OrderItem Tablosu
 
 | Alan      | Tip                | Açıklama                                                          |
 | --------- | ------------------ | ----------------------------------------------------------------- |
@@ -82,7 +82,7 @@ Ben tüm sorgularda varsayılan olarak **IsDeleted = 0** ve **IsActive = 1** yak
 * .NET 9 SDK (`dotnet --version`)
 * SQL Server
 
-### Connection string
+### Bağlantı
 
 `OrderSystem.Api/appsettings.json` içinde:
 
@@ -103,7 +103,7 @@ dotnet ef database update -p OrderSystem.Infrastructure -s OrderSystem.Api
 Yeni migration ekleyecekseniz:
 
 ```bash
-dotnet ef migrations add <MigrationAdi> -p OrderSystem.Infrastructure -s OrderSystem.Api
+dotnet ef migrations add <...> -p OrderSystem.Infrastructure -s OrderSystem.Api
 dotnet ef database update -p OrderSystem.Infrastructure -s OrderSystem.Api
 ```
 
@@ -116,7 +116,7 @@ dotnet run --project OrderSystem.Api
 ```
 ---
 
-## API – Uçlar ve Örnekler
+## API
 
 ### Products
 
@@ -194,7 +194,7 @@ GET /api/Orders?userId=enesscigdem
 
 * **IAudit** standardını tüm tablolara uyguladım (soft delete + audit).
 * **Optimistic concurrency**’i ürün tarafında `RowVersion` ile çözdüm.
-* Stok güncelleme için **PATCH /stock** uçunu tercih ettim.
+* Stok güncelleme için **PATCH /stock** tercih ettim.
 * Katmanlı yapı: Domain → Application → Infrastructure → Api
 * Geliştirmede hızlı test için **seed** var. Kolaylıkla test edilebilir.
 
