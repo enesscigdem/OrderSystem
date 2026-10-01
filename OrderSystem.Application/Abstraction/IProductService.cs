@@ -10,6 +10,6 @@ public interface IProductService
     Task<bool> SoftDeleteAsync(int id, CancellationToken ct);
     Task<ProductVm?> GetAsync(int id, CancellationToken ct);
 
-    Task<(IReadOnlyList<ProductVm> Items, int TotalCount)> ListAsync(
+    Task<PagedResult<ProductVm>> ListAsync(
         string? q, bool? onlyActive, int page, int pageSize, CancellationToken ct);
 }
