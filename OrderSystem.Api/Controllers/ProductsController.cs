@@ -16,8 +16,12 @@ public class ProductsController : ControllerBase
     public async Task<IActionResult> List([FromQuery] string? q, [FromQuery] bool? onlyActive,
         [FromQuery] int page = 1, [FromQuery] int pageSize = 20, CancellationToken ct = default)
     {
-        var (items, total) = await _svc.ListAsync(q, onlyActive, page, pageSize, ct);
-        return Ok(new { total, items });
+        if (page < 1) page = 1;
+        if (pageSize < 1) pageSize = 1;
+        if (pageSize > 100) pageSize = 100;
+
+        var result = await _svc.ListAsync(q, onlyActive, page, pageSize, ct);
+        return Ok(result);
     }
 
     [HttpGet("{id:int}")]

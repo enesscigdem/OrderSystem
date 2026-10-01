@@ -100,7 +100,7 @@ public class ProductService : IProductService
             .Select(p => new ProductVm(p.Id, p.Name, p.Price, p.Stock, p.IsActive, p.RowVersion))
             .FirstOrDefaultAsync(ct);
 
-    public async Task<(IReadOnlyList<ProductVm> Items, int TotalCount)> ListAsync(
+    public async Task<PagedResult<ProductVm>> ListAsync(
         string? q, bool? onlyActive, int page, int pageSize, CancellationToken ct)
     {
         if (page <= 0) page = 1;
@@ -123,6 +123,6 @@ public class ProductService : IProductService
             .Select(p => new ProductVm(p.Id, p.Name, p.Price, p.Stock, p.IsActive, p.RowVersion))
             .ToListAsync(ct);
 
-        return (items, total);
+        return new PagedResult<ProductVm>(items, total, page, pageSize);
     }
 }
